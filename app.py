@@ -1,2 +1,2 @@
 import streamlit as st
-print ("hola mundo")
+st.title("Mi primera aplicacion en python")
