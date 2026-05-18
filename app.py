@@ -91,7 +91,7 @@ class Actividad:
 
 def mostrar_home():
     st.title("Módulo 1")
-    st.write("Proyecto aplicado en Streamlit - Python Fundamentals")
+    st.write("Especialización Python for Analytics")
 
     banner_path = Path("assets/banner.png")
 
