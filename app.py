@@ -118,10 +118,10 @@ def mostrar_home():
 
     with col1:
         st.subheader("Datos del trabajo")
-        st.write("**Especialización:** Python for Analytics")
-        st.write("**Curso / Módulo:** Python Fundamentals")
         st.write("**Título del proyecto:** Módulo 1")
         st.write("**Estudiante:** Julio Cesar Paico Jaime")
+        st.write("**Especialización:** Python for Analytics")
+        st.write("**Curso / Módulo:** Python Fundamentals") 
         st.write("**Docente:** MSc. Carlos Carrillo Villavicencio")
         st.write("**Año:** 2026")
 
