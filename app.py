@@ -28,7 +28,7 @@ if 'db_empleados' not in st.session_state:
 
 # NAVEGACIÓN LATERAL 
 with st.sidebar:
-    st.image("images/Python_logo.png", width=100) 
+    st.image("images/Python_logo.png", width=200) 
     st.title("Panel de Control")
     seleccion = st.sidebar.selectbox(
         "Ir a:",
