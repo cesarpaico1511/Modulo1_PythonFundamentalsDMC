@@ -26,9 +26,9 @@ if 'historial_roi' not in st.session_state:
 if 'db_empleados' not in st.session_state:
     st.session_state.db_empleados = []
 
-# --- NAVEGACIÓN LATERAL ---
+# NAVEGACIÓN LATERAL 
 with st.sidebar:
-    st.image("https://cdn-icons-png.flaticon.com/512/5968/5968350.png", width=100) # Imagen representativa de Python
+    st.image("https://images/innovacion.png.flaticon.com/512/5968/5968350.png", width=100) # Imagen representativa de Python
     st.title("Panel de Control")
     seleccion = st.sidebar.selectbox(
         "Ir a:",
