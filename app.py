@@ -112,7 +112,7 @@ elif seleccion == "Ejercicio 1":
         else:
             st.info("No hay movimientos registrados aún.")
 
-# --- SECCIÓN: EJERCICIO 2 (NUMPY Y DATAFRAMES) ---
+# SECCIÓN: EJERCICIO 2 (NUMPY Y DATAFRAMES) ---
 elif seleccion == "Ejercicio 2":
     st.title("📦 Registro de Inventario con NumPy")
     st.markdown("Uso de arreglos multidimensionales para optimizar el almacenamiento de datos de productos.")
@@ -147,7 +147,7 @@ elif seleccion == "Ejercicio 2":
     else:
         st.warning("El inventario está vacío.")
 
-# --- SECCIÓN: EJERCICIO 3 (LIBRERÍA DE FUNCIONES) ---
+# SECCIÓN: EJERCICIO 3 (LIBRERÍA DE FUNCIONES) ---
 elif seleccion == "Ejercicio 3":
     st.title("📊 Análisis Financiero (Funciones)")
     st.markdown("Integración de la función `calcular_rentabilidad_esperada` desde `libreria_funciones_proyecto1.py`.")
@@ -179,7 +179,7 @@ elif seleccion == "Ejercicio 3":
         st.subheader("📜 Histórico de Consultas")
         st.dataframe(pd.DataFrame(st.session_state.historial_roi), use_container_width=True)
 
-# --- SECCIÓN: EJERCICIO 4 (POO Y CRUD) ---
+# SECCIÓN: EJERCICIO 4 (POO Y CRUD) 
 elif seleccion == "Ejercicio 4":
     st.title("👥 Gestión de Empleados (CRUD & POO)")
     st.markdown("Implementación de la clase `Empleado` con operaciones de creación, lectura, actualización y eliminación.")
