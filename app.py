@@ -66,7 +66,7 @@ if seleccion == "Home":
     st.write("- **NumPy & Pandas**: Procesamiento de datos.")
     st.write("- **Programación Modular**: Integración de funciones y clases externas.")
 
-# --- SECCIÓN: EJERCICIO 1 (LISTAS Y FLUJO DE CAJA) ---
+# SECCIÓN: EJERCICIO 1 (LISTAS Y FLUJO DE CAJA)
 elif seleccion == "Ejercicio 1":
     st.title("💰 Gestión de Flujo de Caja")
     st.markdown("> Registro de movimientos financieros utilizando estructuras de listas dinámicas.")
