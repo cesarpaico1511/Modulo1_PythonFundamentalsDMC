@@ -37,16 +37,18 @@ with st.sidebar:
     st.divider()
     st.info(f"Fecha Actual: {datetime.now().strftime('%d/%m/%Y')}")
 
-# --- SECCIÓN: HOME ---
+# SECCIÓN: HOME 
 if seleccion == "Home":
-    st.title("🚀 Proyecto Final: Especialización en Python")
-    st.subheader("Módulo 1: Desarrollo de Aplicaciones con Streamlit e IA")
+    st.title("🚀 Especialización en Python Potenciado con IA - Edición 58")
+    st.subheader("Módulo 1: Desarrollo de Aplicaciones con Python y Streamlit")
     
     col1, col2 = st.columns([1, 2])
     with col1:
         # Nota: Asegúrate de tener 'innovacion.png' en tu carpeta local. 
         # Aquí uso un placeholder por seguridad.
-        st.image("https://via.placeholder.com/200x200.png?text=Logo+Innovacion", caption="Innovación & Tecnología")
+        st.image("images/innovacion.png", caption="Innovación & Tecnología")
+        
+        #st.image("https://via.placeholder.com/200x200.png?text=Logo+Innovacion", caption="Innovación & Tecnología")
     
     with col2:
         st.markdown(f"""
