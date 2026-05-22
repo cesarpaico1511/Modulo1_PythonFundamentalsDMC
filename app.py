@@ -44,12 +44,8 @@ if seleccion == "Home":
     
     col1, col2 = st.columns([1, 2])
     with col1:
-        # Nota: Asegúrate de tener 'innovacion.png' en tu carpeta local. 
-        # Aquí uso un placeholder por seguridad.
-        st.image("images/innovacion.png", caption="Innovación & Tecnología")
-        
-        #st.image("https://via.placeholder.com/200x200.png?text=Logo+Innovacion", caption="Innovación & Tecnología")
-    
+       st.image("images/innovacion.png", caption="Innovación & Tecnología")
+            
     with col2:
         st.markdown(f"""
         ### Información del Estudiante
@@ -58,7 +54,7 @@ if seleccion == "Home":
         **Año:** 2026
         
         ### Descripción del Proyecto
-        Esta aplicación integra conceptos avanzados de programación en Python, incluyendo el manejo de estructuras de datos (listas, diccionarios), 
+        Esta aplicación integra conceptos de programación en Python, incluyendo el manejo de estructuras de datos (listas, diccionarios), 
         computación numérica con **NumPy**, análisis de datos con **Pandas**, y Programación Orientada a Objetos (**POO**). 
         Todo esto empaquetado en una interfaz reactiva utilizando **Streamlit**.
         """)
