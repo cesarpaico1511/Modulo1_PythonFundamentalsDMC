@@ -44,7 +44,7 @@ if seleccion == "Home":
     
     col1, col2 = st.columns([1, 2])
     with col1:
-       st.image("images/innovacion.png", caption="Innovación & Tecnología")
+       st.image("images/innovacion.png", width=600, caption="Innovación & Tecnología")
             
     with col2:
         st.markdown(f"""
