@@ -5,9 +5,8 @@ import math
 from datetime import datetime
 
 # Importación de librerías externas
-#import libreria_funciones_proyecto1 as funciones
-#from libreria_clases_proyecto1 import Empleado
-
+import libreria_funciones_proyecto1 as funciones
+from libreria_clases_proyecto1 import Empleado
 
 # Configuración de la página y Estilo (Azules y Plomo)
 st.set_page_config(
