@@ -11,7 +11,7 @@ import libreria_funciones_proyecto1 as funciones
 
 # Configuración de la página y Estilo (Azules y Plomo)
 st.set_page_config(
-    page_title="Proyecto Prototipo Python - Julio Paico",
+    page_title="Python Módulo 1 - Julio Cesar Paico Jaime",
     page_icon="🐍",
     layout="wide"
 )
